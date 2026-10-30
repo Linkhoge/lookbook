@@ -1,0 +1,72 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code settings can be included in version control.
+# Do not store passwords or private tokens in these files.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Widget Preview related
+.widget_preview/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Android signing credentials and keystores
+/android/key.properties
+*.jks
+*.keystore
+
+# Machine-specific Android SDK location
+/android/local.properties
+
+# Private Firebase Admin / Google Cloud service-account keys
+**/*firebase-adminsdk*.json
+**/service-account*.json
+**/serviceAccountKey.json
+
+# Firebase local cache and debug logs
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+database-debug.log*
+ui-debug.log*

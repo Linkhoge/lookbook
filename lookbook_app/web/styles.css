@@ -1,0 +1,44 @@
+/*
+ * Browser splash screen displayed before Flutter renders.
+ * Author: Ariel Fajimiyo
+ * Date: 22/10/26
+ */
+
+html,
+body {
+  margin: 0;
+  background: #fafaf8;
+}
+
+#lookbook-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #fafaf8;
+  pointer-events: none;
+}
+
+/* Match the branding position used by the Flutter welcome screen. */
+.lookbook-brand {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.lookbook-title {
+  margin: 0;
+  color: #1b2432;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.7px;
+}
+
+.lookbook-line {
+  width: 36px;
+  height: 1px;
+  margin: 12px auto 0;
+  background: #cca251;
+}
